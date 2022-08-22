@@ -1,0 +1,24 @@
+{
+  "name": "Tor Hidden Service On Heroku",
+  "description": "Host tor  hidden services to dark web  using heroku",
+  "keywords": [
+    "onion-service",
+    "hidden-service",
+    "tor",
+    "heroku tor"
+  ],
+  "addons": [],
+  "author": "sumithemmadi",
+  "env": {},
+  "website": "https://sumithemmadi.github.io/tor-hidden-service-on-heroku",
+  "repository": "https://github.com/sumithemmadi/tor-hidden-service-on-heroku",
+  "logo": "https://raw.githubusercontent.com/sumithemmadi/tor-hidden-service-on-heroku/main/public_html/img/favicon.png",
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-php"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-apt"
+    }
+  ]
+}
