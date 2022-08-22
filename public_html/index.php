@@ -17,7 +17,7 @@ canvas {display: block;}
           <?php
           if (file_exists(__DIR__.'/../temp/var/lib/tor/hidden_service/hostname')) {
               $output = file_get_contents(__DIR__.'/../temp/var/lib/tor/hidden_service/hostname');
-              echo "Congratulation's 🥳🥳<br><a href=http://$output>$output</a>";
+              echo "Congratulation's 🥳🥳<br> <a href=http://$output>$output</a>";
           } else {
               $output = "No domain";
               echo '<p>Something went wrong</p>';
